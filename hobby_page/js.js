@@ -21,6 +21,3 @@ setInterval(clock, 1000);
 
 // ALERT POPUP
 
-function submit() {
-    alert("Thank you for submitting!");
-}
