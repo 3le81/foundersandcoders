@@ -1,7 +1,5 @@
 // TIME AND DATE SET 
-
 var clockElement = document.getElementById('clock');
-
 function clock() {
     var date = new Date();
 
@@ -14,10 +12,11 @@ function clock() {
         clockElement.textContent = date.toString();
     }
 }
-
 setInterval(clock, 1000);
 
 // TIME DATE END
 
 // ALERT POPUP
-
+function submit() {
+    alert("Check your email for the monthly newsletter!");
+}

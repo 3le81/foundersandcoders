@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="js.js" type="text/Javascript"> -->
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <script src="./main.js" defer></script>
     <script src="https://kit.fontawesome.com/4562b23ee3.js" crossorigin="anonymous"></script>
     <script src="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,29 +70,6 @@
     </main>
     <footer class="footer">Copyright @2023 Created by Elena Pagano for Founders&Coders</footer>
 </body>
-<script>
-    // TIME AND DATE SET 
-    var clockElement = document.getElementById('clock');
-    function clock() {
-        var date = new Date();
 
-        // Replace '400px' below with where you want the format to change.
-        if (window.matchMedia('(max-width: 400px)').matches) {
-            // Use this format for windows with a width up to the value above.
-            clockElement.textContent = date.toLocaleString();
-        } else {
-            // While this format will be used for larger windows.
-            clockElement.textContent = date.toString();
-        }
-    }
-    setInterval(clock, 1000);
-
-    // TIME DATE END
-
-    // ALERT POPUP
-    function submit() {
-        alert("Check your email for the monthly newsletter!");
-    }
-</script>
 
 </html>
